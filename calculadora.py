@@ -11,8 +11,8 @@ class Calculadora:
 
 def main():
     operacion = input("Introduce tu operación: ")
-    calculadora = Calculadora(operacion)
-    resultado = calculadora.calcular()
+    usr_input = Calculadora(operacion)
+    resultado = usr_input.calcular()
     print(f"El resultado es: {resultado}")
 
 if __name__ == "__main__":
